@@ -12,7 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Home - Portfolio</title>
+    <title>My Portfolio</title>
   </head>
   <body>
     <div class="main-container" id="home">
@@ -118,112 +118,16 @@
       </section>
       <section id="projects">
         <h1>Projects</h1>
-        <div class="project-main-container">
-          <div class="project-container" id="1">
-            <img src="/assets/projects/youtube.png" alt="" />
-            <div class="description">
-              <h1>YouTube Clone</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                ipsa consectetur inventore nesciunt odio eveniet vel blanditiis
-                ipsam distinctio vitae.
-              </p>
-              <div class="icons-container project-2">
-                <div class="github-icon icons">
-                  <i
-                    class="fa-brands fa-github fa-2xl"
-                    style="color: #ffffff"
-                    onclick="goTo('https://github.com/Ayban-17')"
-                  ></i>
-                  <p>Go to Repository</p>
-                </div>
-                <div class="website-icon icons">
-                  <i
-                    class="fa-solid fa-globe fa-2xl"
-                    style="color: #ffffff"
-                    onclick="goTo('https://github.com/Ayban-17')"
-                  ></i>
-                  <p>Live Demo</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="project-container project-even" id="2">
-            <img src="/assets/projects/youtube.png" alt="" />
-            <div class="description">
-              <h1>YouTube Clone</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                ipsa consectetur inventore nesciunt odio eveniet vel blanditiis
-                ipsam distinctio vitae.
-              </p>
-              <div class="icons-container">
-                <div class="github-icon icons">
-                  <i
-                    class="fa-brands fa-github fa-2xl"
-                    style="color: #ffffff"
-                    onclick="goTo('https://github.com/Ayban-17')"
-                  ></i>
-                  <p>Go to Repository</p>
-                </div>
-                <div class="website-icon icons">
-                  <i
-                    class="fa-solid fa-globe fa-2xl"
-                    style="color: #ffffff"
-                    onclick="goTo('https://github.com/Ayban-17')"
-                  ></i>
-                  <p>Live Demo</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="project-container" id="3">
-            <img src="/assets/projects/youtube.png" alt="" />
-            <div class="description">
-              <h1>YouTube Clone</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                ipsa consectetur inventore nesciunt odio eveniet vel blanditiis
-                ipsam distinctio vitae.
-              </p>
-              <div class="icons-container">
-                <div class="github-icon icons">
-                  <i
-                    class="fa-brands fa-github fa-2xl"
-                    style="color: #ffffff"
-                    onclick="goTo('https://github.com/Ayban-17')"
-                  ></i>
-                  <p>Go to Repository</p>
-                </div>
-                <div class="website-icon icons">
-                  <i
-                    class="fa-solid fa-globe fa-2xl"
-                    style="color: #ffffff"
-                    onclick="goTo('https://github.com/Ayban-17')"
-                  ></i>
-                  <p>Live Demo</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="project-main-container"></div>
       </section>
       <section id="contact"><h1>HELLO WORLD</h1></section>
-      <!-- <video
-        id="video-bg"
-        src="/assets/video-5.mp4"
-        autoplay
-        loop
-        muted
-      ></video> -->
-      <!-- <img id="image-bg" src="/assets/bg.jpg" alt="" /> -->
     </div>
-    <script src="/src/app.js"></script>
-    <script src="/src/project.js"></script>
+    <script src="app.js"></script>
+    <script src="project.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script> -->
+
     <script>
       VANTA.GLOBE({
         el: "#bg",
@@ -238,21 +142,7 @@
         backgroundColor: 0x20106,
       });
     </script>
-    <!-- <script>
-      VANTA.NET({
-        el: "#about-bg",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.0,
-        minWidth: 200.0,
-        scale: 1.0,
-        scaleMobile: 1.0,
-        color: 0x5a9f32,
-        backgroundColor: 0x0,
-        points: 11.0,
-      });
-    </script> -->
+
     <script>
       const typed = new Typed("#name", {
         strings: [" AYBAN", " A FRONT-END DEVELOPER"],
