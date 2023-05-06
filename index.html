@@ -77,9 +77,9 @@
         <div class="about-container">
           <h1>ABOUT</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            necessitatibus maxime asperiores praesentium reiciendis esse facere?
-            Placeat nobis odio est possimus!
+            I am Graduating Student from Bulacan State University with a program
+            Bachelor of Science in Information Technology major in Web
+            Development.
           </p>
 
           <div class="wrap">
@@ -118,13 +118,47 @@
         <h1>Projects</h1>
         <div class="project-main-container"></div>
       </section>
-      <section id="contact"><h1>HELLO WORLD</h1></section>
+      <section id="contact">
+        <div class="fields">
+          <form
+            action="https://formsubmit.co/4a55240b2ef16648b244458ab4b2ce33"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="https://ayban-17.github.io/My-Portfolio"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <input
+              name="name"
+              type="text"
+              placeholder="Please Enter Your Name"
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Please Enter Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Enter Your Message Here"
+              required
+            ></textarea>
+            <button type="submit">SEND</button>
+          </form>
+        </div>
+        <div class="descriptions"></div>
+      </section>
     </div>
     <script src="app.js"></script>
     <script src="project.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
       VANTA.GLOBE({
         el: "#bg",
@@ -139,7 +173,6 @@
         backgroundColor: 0x20106,
       });
     </script>
-
     <script>
       const typed = new Typed("#name", {
         strings: [" AYBAN", " A FRONT-END DEVELOPER"],
@@ -168,5 +201,7 @@
         // console.log(aboutEl.offsetTop + headerEl.offsetHeight);
       });
     </script>
+
+    <script></script>
   </body>
 </html>

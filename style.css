@@ -426,3 +426,64 @@ nav ul li a:hover {
 .project-even img {
   order: 1;
 }
+
+#contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "fields descriptions";
+  padding: 5rem 7rem;
+  height: 100vh;
+}
+
+.fields {
+  grid-area: fields;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.fields form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #918282 solid 2px;
+  padding: 3rem;
+  gap: 20px;
+}
+
+.fields form input {
+  font-family: Arial;
+  font-size: 1rem;
+  width: 500px;
+  height: 50px;
+  border: solid #918282 1px;
+  background-color: #c5a9a9;
+  padding: 1rem;
+}
+
+.fields form textarea {
+  font-family: Arial;
+  font-size: 1rem;
+  width: 500px;
+  height: 250px;
+  padding: 1rem;
+  background-color: #c5a9a9;
+  resize: none;
+  border: none;
+}
+
+.description {
+  grid-area: descriptions;
+}
+
+form button {
+  width: 200px;
+  height: 50px;
+  background-color: #9f2305;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  align-self: flex-start;
+}
